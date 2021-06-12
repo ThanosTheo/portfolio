@@ -11,7 +11,7 @@ export default function AboutMe() {
 
   return (
     <section className={cn({ show: isVisible })} id="projects" ref={ref}>
-      <h2>Things I have built</h2>
+      <h2 className={styles.title}>Things I have built</h2>
       <div className={styles.content}>
         Projects
       </div>
